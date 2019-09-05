@@ -1,0 +1,12 @@
+在项目目录中右击菜单TortoiseGit ，选择show log
+1 项目右键选择然后点击 show log（显示日志）
+2 选中需要回退的代码版本  
+3.右键  选择“ Reset "master to this ”（重置master到此版本）
+4. 类型选择 “hard”，点击确定
+5.代码回滚并且修改好了，那么下面就重新提交回去~
+
+代码返回未来：
+1.如果想要再回退到原来的新版本,那么右键项目，选择TortoiseGit 然后点击
+2.show reflog,（显示引用文件，注意不是show log，而且是reflog）然后就会出现各种版本号，右键选择reset master to this
+3.类型选择 hard 
+4.点击确定即可完成~
